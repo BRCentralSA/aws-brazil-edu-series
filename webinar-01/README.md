@@ -53,5 +53,6 @@ As arquiteturas de cada etapa foram:
 - [Moodle Cluster](https://docs.moodle.org/38/en/Server_cluster)
 - [Moodle Desempenho & Escalabilidade](https://docs.moodle.org/dev/Performance_and_scalability)
 - [CloudWatch Agent](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/mon-scripts.html#mon-scripts-permissions)
+- [Mount automático do EFS](https://docs.aws.amazon.com/efs/latest/ug/mount-fs-auto-mount-onreboot.html)
 - [AWS Moodle Refarch](https://github.com/aws-samples/aws-refarch-moodle)
 - [Kroton: How to Provide Learning Content to Millions of Students Using AWS (Portuguese)](https://www.youtube.com/watch?v=aRM4Ja5KPIY)

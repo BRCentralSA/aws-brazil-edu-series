@@ -1,2 +1,8 @@
 # MAC
 .DS_Store
+
+# AWS
+config.json
+
+# Moodle
+moodle.sh

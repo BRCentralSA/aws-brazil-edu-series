@@ -6,6 +6,8 @@
 
 ## Agenda de Webinars
 
+Iniciamos esses webinars focados em um workload Moodle. A cada webinar iremos explorar novas possibilidades para o mesmo workload. Confira a aplicação aqui: https://moodle.awsunicorn.com/
+
 1. Escalando o ambiente Moodle na AWS para milhares de usuários em uma hora (30/04). Clique [aqui](webinar-01/) para ver o material.
 
 2. Como Reduzir seus custos AWS com 10 dicas simples (07/05)
