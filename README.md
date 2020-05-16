@@ -10,9 +10,9 @@ Iniciamos esses webinars focados em um workload Moodle. A cada webinar iremos ex
 
 1. Escalando o ambiente Moodle na AWS para milhares de usuários em uma hora (30/04). Clique [aqui](webinar-01/) para ver o material.
 
-2. Como Reduzir seus custos AWS com 10 dicas simples (07/05)
+2. Como Reduzir seus custos AWS com 10 dicas simples (07/05). Clique [aqui](webinar-02/) para ver o material.
 
-3. Melhores práticas de arquitetura com o AWS Well Architected Framework (14/05)
+3. Melhores práticas de arquitetura com o AWS Well Architected Framework (14/05). Clique [aqui](webinar-03/) para ver o material.
 
 4. DevOps e como acelerar o desenvolvimento de apps (21/05)
 
