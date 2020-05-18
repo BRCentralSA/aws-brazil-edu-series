@@ -1,4 +1,4 @@
-# AWS Brasil - Conteúdo da série de Webinars para Educação apresentandos em 2020
+# AWS Brasil - Conteúdo da série de Webinars para Educação apresentados em 2020
 
 ## Como reduzir seus custos na AWS com 10 dicas simples (07/05)
 
