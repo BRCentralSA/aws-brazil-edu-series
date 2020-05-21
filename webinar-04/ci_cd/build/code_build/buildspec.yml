@@ -1,0 +1,8 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - pip install boto3
+  build:
+    commands:
+      - python ci_cd/build/code_build/generate_ami_ec2.py
