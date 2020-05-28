@@ -1,6 +1,6 @@
 # AWS Brasil - Conteúdo da série de Webinars para Educação apresentandos em 2020
 
-## DevOps (21/05)
+## DevOps e como acelerar o desenvolvimento de apps (21/05)
 
 Neste webinar explicaremos o que é DevOps, como essa cultura foi criada, como a AWS consegue te ajudar a implementar uma cultura DevOps dentro da sua empresa e também um HandsOn de como entregar uma aplicação moodle em produção utilizando uma esteira de CI/CD integrada com os serviços da AWS
 
