@@ -66,6 +66,17 @@ _Obs.: Esse serviço que estamos criando é para fins de demonstração. Para n�
  
  9. Precisamos configurar corretamente as configurações de VPC da nossa função lambda, para a visibilidade de nossa VPC precisamos adicionar as configurações da VPC, subnets e security-groups para a nossa função criada.
  
+ 
+ #### Podemos incluir as dependências de uma biblioteca em uma camada do lambda.
+ 
+ Essa é uma forma alternativa de empacotar o código lambda junto com as dependências necessárias em um único zip e subir para sua função.
+ 
+ 1. Compacte a biblioteca em um arquivo .zip
+ 2. No console da lambda clique na aba de layers
+ 3. Crie uma nova layer e configure corretamente o ambiente de execução, então faça upload do arquivo .zip
+ 4. Abra sua função lambda e clique para adicionar layers existentes à sua lambda, selecione então nossa layer criada
+ 5. Pronto, agora você já possui a dependência importada através de uma camada do lambda. Portanto só é necessário subir o seu código fonte da função.
+ 
  ### Criando a lambda de notificação de estudantes
  
  1. No console da AWS crie uma nova lambda e adicione uma role com acesso total ao serviço SNS
@@ -87,9 +98,9 @@ _Obs.: Esse serviço que estamos criando é para fins de demonstração. Para n�
  5. Faça o deploy da API e veja na aba de stages a sua URL do API Gateway que expõe suas funções lambdas.
 
 
-
 ## Referências
 
 - [O que é uma arquitetura sem servidor?](https://aws.amazon.com/pt/lambda/serverless-architectures-learn-more/)
 - [AWS Lambda](https://aws.amazon.com/pt/lambda/)
 - [Developer guide AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+- [AWS Lambda Layers](https://docs.aws.amazon.com/pt_br/lambda/latest/dg/configuration-layers.html)
