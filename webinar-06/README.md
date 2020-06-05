@@ -30,7 +30,7 @@ _Obs.: Esse serviço que estamos criando é para fins de demonstração. Para n�
 
 
 
-### Criando a lambda de listagem de usuários
+### Criando a lambda de listagem de estudantes
 
 1. Crie um ambiente virtual com o virtualenv:
    ```
@@ -66,4 +66,30 @@ _Obs.: Esse serviço que estamos criando é para fins de demonstração. Para n�
  
  9. Precisamos configurar corretamente as configurações de VPC da nossa função lambda, para a visibilidade de nossa VPC precisamos adicionar as configurações da VPC, subnets e security-groups para a nossa função criada.
  
+ ### Criando a lambda de notificação de estudantes
  
+ 1. No console da AWS crie uma nova lambda e adicione uma role com acesso total ao serviço SNS
+ 
+ 2. Copie o código de notificar os estudantes que se encontra na pasta **src** e modifique o tópico SNS para o seu cadastrado.
+ 
+ 3. Não precisaremos alterar as configurações da VPC, visto que não precisamos ter visibilidade para acessar uma subnet onde está um servico de banco de dados por exemplo
+ 
+ ### Criando o API Gateway
+ 
+ 1. No console da AWS adicione um novo API Gateway e selecione uma nova API do tipo REST
+ 
+ 2. Na aba de recursos clique em **/** e adicione um novo recurso. Escolha um nome para seu recurso
+ 
+ 3. Adicione um novo metódo para seu recurso do tipo **GET** e então selecione o tipo de integração com a função lambda que criamos para listagem de estudantes.
+ 
+ 4. Repita o processo de 1 a 3 para criar um recurso e método (selecione metódo **POST**) para expormos a lambda de notificar os estudantes.
+ 
+ 5. Faça o deploy da API e veja na aba de stages a sua URL do API Gateway que expõe suas funções lambdas.
+
+
+
+## Referências
+
+- [O que é uma arquitetura sem servidor?](https://aws.amazon.com/pt/lambda/serverless-architectures-learn-more/)
+- [AWS Lambda](https://aws.amazon.com/pt/lambda/)
+- [Developer guide AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
