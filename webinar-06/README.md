@@ -22,6 +22,7 @@ _Obs.: Esse serviço que estamos criando é para fins de demonstração. Para n�
 
 - Assistir o [webinar-01](../webinar-01/) (recomendado);
 - Assistir o [webinar-04](../webinar-04/) (recomendado);
+- Assistir o [webinar-05](../webinar-05/) (recomendado);
 - Python 3.6+;
 - virtualenv;
 - Criar um tópico SNS (https://docs.aws.amazon.com/pt_br/AmazonCloudWatch/latest/monitoring/US_SetupSNS.html);
