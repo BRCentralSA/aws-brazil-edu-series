@@ -14,7 +14,7 @@ _Obs.: Esse serviço que estamos criando é para fins de demonstração. Para n�
 
 
 </br>
-<p align="center"><img src="images/serverless-demo.jpg"/></p>
+<p align="center"><img src="images/serverless-demo.png"/></p>
 </br>
 
 
