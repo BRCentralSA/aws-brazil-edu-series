@@ -25,7 +25,7 @@ requests==2.23.0
 s3transfer==0.3.3
 six==1.15.0
 toml==0.10.1
-urllib3==1.25.9
+urllib3==1.26.5
 virtualenv==20.0.21
 Werkzeug==1.0.1
 zipp==3.1.0
